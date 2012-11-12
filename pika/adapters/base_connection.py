@@ -21,6 +21,8 @@ except ImportError:
 from pika import connection
 from pika import exceptions
 
+### Can not disable logging output use logging directly. The version 0.9.5 does, why?
+###sorry, I don't know how to cantact author.
 LOGGER = logging.getLogger(__name__)
 
 
